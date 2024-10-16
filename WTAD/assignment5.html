@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" >
+
+        <!-- Name Field -->
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name" required><br><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name" required><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Gender Field -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Address Field -->
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Phone Field -->
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <!-- Course Selection -->
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="computer_science">Computer Science</option>
+            <option value="mathematics">Mathematics</option>
+            <option value="physics">Physics</option>
+            <option value="chemistry">Chemistry</option>
+        </select><br><br>
+
+        <!-- Hobbies (Checkboxes) -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>

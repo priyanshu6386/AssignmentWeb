@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Types Showcase</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to External CSS -->
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+        }
+        .internal-style {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Showcase of All CSS Types</h1>
+    
+    <p>This paragraph uses <strong>internal CSS</strong> for its styling.</p>
+    
+    <p style="color: blue; font-weight: bold;">This paragraph uses <strong>inline CSS</strong> for styling.</p>
+
+    <div class="external-style">
+        This div is styled using <strong>external CSS</strong>.
+    </div>
+
+    <h2>Types of CSS Explained</h2>
+    <ul>
+        <li><strong>Inline CSS</strong>: Styles are applied directly to HTML elements using the style attribute.</li>
+        <li><strong>Internal CSS</strong>: Styles are defined within a <code>&lt;style&gt;</code> tag in the head section of the document.</li>
+        <li><strong>External CSS</strong>: Styles are defined in an external stylesheet (styles.css in this case).</li>
+    </ul>
+</body>
+</html>
